@@ -1,0 +1,12 @@
+<ion-view view-title="News">
+  <ion-content class="padding">
+
+    <div class="list card" ng-repeat="story in stories">
+      <div class="item item-body">
+          <p>{{story.text}}</p>
+          <small>{{story.date}}</small>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

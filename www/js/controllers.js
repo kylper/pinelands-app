@@ -13,12 +13,12 @@ angular.module('starter.controllers', [])
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
-.controller('FriendsCtrl', function($scope, Friends) {
-  $scope.friends = Friends.all();
+.controller('ArtistsCtrl', function($scope, Artists) {
+  $scope.artists = Artists.all();
 })
 
-.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-  $scope.friend = Friends.get($stateParams.friendId);
+.controller('ArtistDetailCtrl', function($scope, $stateParams, Artists) {
+  $scope.artist = Artists.get($stateParams.artistId);
 })
 
 .controller('AccountCtrl', function($scope) {

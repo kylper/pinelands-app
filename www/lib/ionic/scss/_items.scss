@@ -95,6 +95,19 @@
   &.item-dark {
     @include item-style($item-dark-bg, $item-dark-border, $item-dark-text);
   }
+  // Custom Theme Colors
+  &.item-lime {
+    @include item-style($item-lime-bg, $item-lime-border, $item-lime-text);
+  }
+  &.item-tan {
+    @include item-style($item-tan-bg, $item-tan-border, $item-tan-text);
+  }
+  &.item-green {
+    @include item-style($item-green-bg, $item-green-border, $item-green-text);
+  }
+  &.item-darkblue {
+    @include item-style($item-darkblue-bg, $item-darkblue-border, $item-darkblue-text);
+  }
 
   &[ng-click]:hover {
     cursor: pointer;
@@ -144,6 +157,20 @@
   &.item-dark {
     @include item-active-style($item-dark-active-bg, $item-dark-active-border);
   }
+  // Custom Theme Colors
+  &.item-lime {
+    @include item-active-style($item-lime-active-bg, $item-lime-active-border);
+  }
+  &.item-tan {
+    @include item-active-style($item-tan-active-bg, $item-tan-active-border);
+  }
+  &.item-green {
+    @include item-active-style($item-green-active-bg, $item-green-active-border);
+  }
+  &.item-darkblue {
+    @include item-active-style($item-darkblue-active-bg, $item-darkblue-active-border);
+  }
+
 }
 
 // Handle text overflow
@@ -299,6 +326,31 @@ a.item-content {
     @include item-style($item-dark-bg, $item-dark-border, $item-dark-text);
     &.active, &:active {
       @include item-active-style($item-dark-active-bg, $item-dark-active-border);
+    }
+  }
+  // Custom Theme Colors
+  &.item-lime > .item-content{
+    @include item-style($item-lime-bg, $item-lime-border, $item-lime-text);
+    &.active, &:active {
+      @include item-active-style($item-lime-active-bg, $item-lime-active-border);
+    }
+  }
+  &.item-tan > .item-content{
+    @include item-style($item-tan-bg, $item-tan-border, $item-tan-text);
+    &.active, &:active {
+      @include item-active-style($item-tan-active-bg, $item-tan-active-border);
+    }
+  }
+  &.item-green > .item-content{
+    @include item-style($item-green-bg, $item-green-border, $item-green-text);
+    &.active, &:active {
+      @include item-active-style($item-green-active-bg, $item-green-active-border);
+    }
+  }
+  &.item-darkblue > .item-content{
+    @include item-style($item-darkblue-bg, $item-darkblue-border, $item-darkblue-text);
+    &.active, &:active {
+      @include item-active-style($item-darkblue-active-bg, $item-darkblue-active-border);
     }
   }
 }

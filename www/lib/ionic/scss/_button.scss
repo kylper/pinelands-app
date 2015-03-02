@@ -124,6 +124,28 @@
     @include button-clear($button-dark-bg);
     @include button-outline($button-dark-bg);
   }
+  // Custom Theme Colors
+  &.button-lime {
+    @include button-style($button-lime-bg, $button-lime-border, $button-lime-active-bg, $button-lime-active-border, $button-lime-text);
+    @include button-clear($button-lime-bg);
+    @include button-outline($button-lime-bg);
+  }
+  &.button-tan {
+    @include button-style($button-tan-bg, $button-tan-border, $button-tan-active-bg, $button-tan-active-border, $button-tan-text);
+    @include button-clear($button-tan-bg);
+    @include button-outline($button-tan-bg);
+  }
+  &.button-green {
+    @include button-style($button-green-bg, $button-green-border, $button-green-active-bg, $button-green-active-border, $button-green-text);
+    @include button-clear($button-green-bg);
+    @include button-outline($button-green-bg);
+  }
+  &.button-darkblue {
+    @include button-style($button-darkblue-bg, $button-darkblue-border, $button-darkblue-active-bg, $button-darkblue-active-border, $button-darkblue-text);
+    @include button-clear($button-darkblue-bg);
+    @include button-outline($button-darkblue-bg);
+  }
+
 }
 
 .button-small {

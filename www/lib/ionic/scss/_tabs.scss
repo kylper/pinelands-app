@@ -87,6 +87,27 @@
   @include tab-style($tabs-dark-bg, $tabs-dark-border, $tabs-dark-text);
   @include tab-badge-style($tabs-dark-text, $tabs-dark-bg);
 }
+// Custom Theme Colors
+.tabs-lime > .tabs,
+.tabs.tabs-lime {
+  @include tab-style($tabs-lime-bg, $tabs-lime-border, $tabs-lime-text);
+  @include tab-badge-style($tabs-lime-text, $tabs-lime-bg);
+}
+.tabs-tan > .tabs,
+.tabs.tabs-tan {
+  @include tab-style($tabs-tan-bg, $tabs-tan-border, $tabs-tan-text);
+  @include tab-badge-style($tabs-tan-text, $tabs-tan-bg);
+}
+.tabs-green > .tabs,
+.tabs.tabs-green {
+  @include tab-style($tabs-green-bg, $tabs-green-border, $tabs-green-text);
+  @include tab-badge-style($tabs-green-text, $tabs-green-bg);
+}
+.tabs-darkblue > .tabs,
+.tabs.tabs-darkblue {
+  @include tab-style($tabs-darkblue-bg, $tabs-darkblue-border, $tabs-darkblue-text);
+  @include tab-badge-style($tabs-darkblue-text, $tabs-darkblue-bg);
+}
 
 @mixin tabs-striped($style, $color, $background) {
   &.#{$style} {
@@ -220,6 +241,11 @@
   @include tabs-striped('tabs-energized', $light, $energized);
   @include tabs-striped('tabs-royal', $light, $royal);
   @include tabs-striped('tabs-dark', $light, $dark);
+  //Custom Theme Colors
+  @include tabs-striped('tabs-lime', $dark, $themelime);
+  @include tabs-striped('tabs-tan', $dark, $themetan);
+  @include tabs-striped('tabs-green', $light, $themegreen);
+  @include tabs-striped('tabs-darkblue', $light, $themedarkblue);
 
   // doing this twice so striped tabs styles don't override specific bg and color vals
   @include tabs-striped-background('tabs-background-light', $light);
@@ -231,6 +257,11 @@
   @include tabs-striped-background('tabs-background-energized',$energized);
   @include tabs-striped-background('tabs-background-royal', $royal);
   @include tabs-striped-background('tabs-background-dark', $dark);
+  //Custom Theme Colors
+  @include tabs-striped-background('tabs-background-lime', $themelime);
+  @include tabs-striped-background('tabs-background-tan', $themetan);
+  @include tabs-striped-background('tabs-background-green', $themegreen);
+  @include tabs-striped-background('tabs-background-darkblue', $themedarkblue);
 
   @include tabs-striped-color('tabs-color-light', $light);
   @include tabs-striped-color('tabs-color-stable', $stable);
@@ -241,6 +272,11 @@
   @include tabs-striped-color('tabs-color-energized',$energized);
   @include tabs-striped-color('tabs-color-royal', $royal);
   @include tabs-striped-color('tabs-color-dark', $dark);
+  //Custom Theme Colors
+  @include tabs-striped-color('tabs-color-lime', $themelime);
+  @include tabs-striped-color('tabs-color-tan', $themetan);
+  @include tabs-striped-color('tabs-color-green', $themegreen);
+  @include tabs-striped-color('tabs-color-darkblue', $themedarkblue);
 
 }
 
@@ -253,6 +289,11 @@
 @include tabs-background('tabs-background-energized',$energized, $bar-energized-border);
 @include tabs-background('tabs-background-royal', $royal, $bar-royal-border);
 @include tabs-background('tabs-background-dark', $dark, $bar-dark-border);
+//Custom Theme Colors
+@include tabs-background('tabs-background-lime', $themelime, $bar-lime-border);
+@include tabs-background('tabs-background-tan', $themetan, $bar-tan-border);
+@include tabs-background('tabs-background-green', $themegreen, $bar-green-border);
+@include tabs-background('tabs-background-darkblue', $themedarkblue, $bar-darkblue-border);
 
 @include tabs-color('tabs-color-light', $light);
 @include tabs-color('tabs-color-stable', $stable);
@@ -263,6 +304,12 @@
 @include tabs-color('tabs-color-energized',$energized);
 @include tabs-color('tabs-color-royal', $royal);
 @include tabs-color('tabs-color-dark', $dark);
+//Custom Theme Colors
+@include tabs-color('tabs-color-lime', $themelime);
+@include tabs-color('tabs-color-tan', $themetan);
+@include tabs-color('tabs-color-green', $themegreen);
+@include tabs-color('tabs-color-darkblue', $themedarkblue);
+
 
 @mixin tabs-standard-color($style, $color, $off-color:$dark) {
   &.#{$style} {
@@ -287,6 +334,11 @@ ion-tabs {
   @include tabs-standard-color('tabs-color-active-energized',$energized, $dark);
   @include tabs-standard-color('tabs-color-active-royal', $royal, $dark);
   @include tabs-standard-color('tabs-color-active-dark', $dark, $light);
+  //Custom Theme Colors
+  @include tabs-standard-color('tabs-color-active-lime', $themelime, $dark);
+  @include tabs-standard-color('tabs-color-active-tan', $themetan, $dark);
+  @include tabs-standard-color('tabs-color-active-green', $themegreen, $light);
+  @include tabs-standard-color('tabs-color-active-darkblue', $themedarkblue, $light);
 }
 
 .tabs-top {

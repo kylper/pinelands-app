@@ -12,6 +12,13 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 
+// Custom Theme Colors
+
+$themelime:                       #ccdf7a !default;
+$themetan:                        #ebe5dd !default;
+$themegreen:                      #3C9682 !default;
+$themedarkblue:                   #174957 !default;
+
 
 // Base
 // -------------------------------
@@ -152,6 +159,32 @@ $button-default-border:           $button-stable-border !default;
 $button-default-active-bg:        $button-stable-active-bg !default;
 $button-default-active-border:    $button-stable-active-border !default;
 
+// Custom Theme Colors
+
+$button-lime-bg:                  $themelime !default;
+$button-lime-text:                #fff !default;
+$button-lime-border:              darken($themelime, 10%) !default;
+$button-lime-active-bg:           darken($themelime, 10%) !default;
+$button-lime-active-border:       darken($themelime, 10%) !default;
+
+$button-tan-bg:                   $themetan !default;
+$button-tan-text:                 #000 !default;
+$button-tan-border:               darken($themetan, 10%) !default;
+$button-tan-active-bg:            darken($themetan, 10%) !default;
+$button-tan-active-border:        darken($themetan, 10%) !default;
+
+$button-green-bg:                 $themegreen !default;
+$button-green-text:               #fff !default;
+$button-green-border:             darken($themegreen, 10%) !default;
+$button-green-active-bg:          darken($themegreen, 10%) !default;
+$button-green-active-border:      darken($themegreen, 10%) !default;
+
+$button-darkblue-bg:              $themedarkblue !default;
+$button-darkblue-text:            #fff !default;
+$button-darkblue-border:          darken($themedarkblue, 10%) !default;
+$button-darkblue-active-bg:       darken($themedarkblue, 10%) !default;
+$button-darkblue-active-border:   darken($themedarkblue, 10%) !default;
+
 
 // Bars
 // -------------------------------
@@ -226,6 +259,34 @@ $bar-default-border:              $bar-light-border !default;
 $bar-default-active-bg:           $bar-light-active-bg !default;
 $bar-default-active-border:       $bar-light-active-border !default;
 
+// Custom Theme Colors
+
+$bar-lime-bg:                     rgba($button-lime-bg, $bar-transparency) !default;
+$bar-lime-text:                   $button-lime-text !default;
+$bar-lime-border:                 $button-lime-border !default;
+$bar-lime-active-bg:              $button-lime-active-bg !default;
+$bar-lime-active-border:          $button-lime-active-border !default;
+
+$bar-tan-bg:                      rgba($button-tan-bg, $bar-transparency) !default;
+$bar-tan-text:                    $button-tan-text !default;
+$bar-tan-border:                  $button-tan-border !default;
+$bar-tan-active-bg:               $button-tan-active-bg !default;
+$bar-tan-active-border:           $button-tan-active-border !default;
+
+$bar-green-bg:                    rgba($button-green-bg, $bar-transparency) !default;
+$bar-green-text:                  $button-green-text !default;
+$bar-green-border:                $button-green-border !default;
+$bar-green-active-bg:             $button-green-active-bg !default;
+$bar-green-active-border:         $button-green-active-border !default;
+
+$bar-darkblue-bg:                 rgba($button-darkblue-bg, $bar-transparency) !default;
+$bar-darkblue-text:               $button-darkblue-text !default;
+$bar-darkblue-border:             $button-darkblue-border !default;
+$bar-darkblue-active-bg:          $button-darkblue-active-bg !default;
+$bar-darkblue-active-border:      $button-darkblue-active-border !default;
+
+
+
 
 // Tabs
 // -------------------------------
@@ -284,6 +345,23 @@ $tabs-striped-off-opacity:        $tabs-off-opacity !default;
 $tabs-striped-off-color: #000;
 $tabs-striped-border-width: 2px;
 
+// Custom Theme Colors
+
+$tabs-lime-bg:                    $button-lime-bg !default;
+$tabs-lime-border:                $button-lime-border !default;
+$tabs-lime-text:                  $button-lime-text !default;
+
+$tabs-green-bg:                   $button-green-bg !default;
+$tabs-green-border:               $button-green-border !default;
+$tabs-green-text:                 $button-green-text !default;
+
+$tabs-tan-bg:                     $button-tan-bg !default;
+$tabs-tan-border:                 $button-tan-border !default;
+$tabs-tan-text:                   $button-tan-text !default;
+
+$tabs-darkblue-bg:                $button-darkblue-bg !default;
+$tabs-darkblue-border:            $button-darkblue-border !default;
+$tabs-darkblue-text:              $button-darkblue-text !default;
 
 // Items
 // -------------------------------
@@ -371,6 +449,32 @@ $item-default-border:             $item-light-border !default;
 $item-default-text:               $item-light-text !default;
 $item-default-active-bg:          #D9D9D9 !default;
 $item-default-active-border:      $item-light-active-border !default;
+
+// Custom Theme Color
+
+$item-lime-bg:                    $button-lime-bg !default;
+$item-lime-border:                $button-lime-border !default;
+$item-lime-text:                  $button-lime-text !default;
+$item-lime-active-bg:             $button-lime-active-bg !default;
+$item-lime-active-border:         $button-lime-active-border !default;
+
+$item-tan-bg:                     $button-tan-bg !default;
+$item-tan-border:                 $button-tan-border !default;
+$item-tan-text:                   $button-tan-text !default;
+$item-tan-active-bg:              $button-tan-active-bg !default;
+$item-tan-active-border:          $button-tan-active-border !default;
+
+$item-green-bg:                   $button-green-bg !default;
+$item-green-border:               $button-green-border !default;
+$item-green-text:                 $button-green-text !default;
+$item-green-active-bg:            $button-green-active-bg !default;
+$item-green-active-border:        $button-green-active-border !default;
+
+$item-darkblue-bg:                $button-darkblue-bg !default;
+$item-darkblue-border:            $button-darkblue-border !default;
+$item-darkblue-text:              $button-darkblue-text !default;
+$item-darkblue-active-bg:         $button-darkblue-active-bg !default;
+$item-darkblue-active-border:     $button-darkblue-active-border !default;
 
 
 // Item Editing

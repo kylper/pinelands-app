@@ -40,7 +40,7 @@ angular.module('starter.services', [])
   }, {
     id: 3,
     name: 'Good Old War',
-    note: 'Band One',
+    note: 'Band Details',
     image: 'http://www.sargenthouse.com/assets/gow/gow3.jpg',
     fontsize: '30px'
   }, {
@@ -60,7 +60,7 @@ angular.module('starter.services', [])
     name: 'You Me and Everyone We Know',
     note: 'Band One',
     image: 'http://killingthecabinet.com/wp-content/uploads/2013/06/You+Me+and+Everyone+We+Know+Promo.jpg',
-    fontsize: '24px'
+    fontsize: '20px'
   }, {
     id: 7,
     name: 'A Great Big Pile of Leaves',
@@ -90,7 +90,7 @@ angular.module('starter.services', [])
     name: 'Where the Ocean Meets the Sky',
     note: 'Band One',
     image: 'http://hangout.altsounds.com/attachments/reviews/5944d1287334916-ocean-meets-sky-empires-album-wtomts.jpg',
-    fontsize: '24px'
+    fontsize: '20px'
   }, {
     id: 12,
     name: 'Locals',

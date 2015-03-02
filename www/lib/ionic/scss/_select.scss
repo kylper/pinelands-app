@@ -131,6 +131,43 @@
       color:$item-dark-text;
     }
   }
+  //Custom Theme Colors
+  &.item-lime  {
+    select{
+      background:$item-lime-bg;
+      color:$item-lime-text;
+    }
+    &:after, .input-label{
+      color:$item-lime-text;
+    }
+  }
+  &.item-tan  {
+    select{
+      background:$item-tan-bg;
+      color:$item-tan-text;
+    }
+    &:after, .input-label{
+      color:$item-tan-text;
+    }
+  }
+  &.item-green  {
+    select{
+      background:$item-green-bg;
+      color:$item-green-text;
+    }
+    &:after, .input-label{
+      color:$item-green-text;
+    }
+  }
+  &.item-darkblue  {
+    select{
+      background:$item-darkblue-bg;
+      color:$item-darkblue-text;
+    }
+    &:after, .input-label{
+      color:$item-darkblue-text;
+    }
+  }
 }
 
 select {

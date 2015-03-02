@@ -120,6 +120,32 @@
       background-image: linear-gradient(180deg, $bar-dark-border, $bar-dark-border 50%, transparent 50%);
     }
   }
+  // Custom Theme Colors
+  &.bar-lime {
+    @include bar-style($bar-lime-bg, $bar-lime-border, $bar-lime-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-lime-border, $bar-lime-border 50%, transparent 50%);
+    }
+  }
+  &.bar-tan {
+    @include bar-style($bar-tan-bg, $bar-tan-border, $bar-tan-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-tan-border, $bar-tan-border 50%, transparent 50%);
+    }
+  }
+  &.bar-green {
+    @include bar-style($bar-green-bg, $bar-green-border, $bar-green-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-green-border, $bar-green-border 50%, transparent 50%);
+    }
+  }
+  &.bar-darkblue {
+    @include bar-style($bar-darkblue-bg, $bar-darkblue-border, $bar-darkblue-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-darkblue-border, $bar-darkblue-border 50%, transparent 50%);
+    }
+  }
+
 
   // Title inside of a bar is centered
   .title {
@@ -315,6 +341,34 @@
     @include button-clear(#fff, $bar-title-font-size);
   }
 }
+
+// Custom Theme Colors
+
+.bar-lime {
+  .button {
+    @include button-style($bar-lime-bg, $bar-lime-border, $bar-lime-active-bg, $bar-lime-active-border, $bar-lime-text);
+    @include button-clear($bar-lime-text, $bar-title-font-size);
+  }
+}
+.bar-tan {
+  .button {
+    @include button-style($bar-tan-bg, $bar-tan-border, $bar-tan-active-bg, $bar-tan-active-border, $bar-tan-text);
+    @include button-clear($bar-tan-text, $bar-title-font-size);
+  }
+}
+.bar-green {
+  .button {
+    @include button-style($bar-green-bg, $bar-green-border, $bar-green-active-bg, $bar-green-active-border, $bar-green-text);
+    @include button-clear($bar-green-text, $bar-title-font-size);
+  }
+}
+.bar-darkblue {
+  .button {
+    @include button-style($bar-darkblue-bg, $bar-darkblue-border, $bar-darkblue-active-bg, $bar-darkblue-active-border, $bar-darkblue-text);
+    @include button-clear($bar-darkblue-text, $bar-title-font-size);
+  }
+}
+
 
 // Header at top
 .bar-header {

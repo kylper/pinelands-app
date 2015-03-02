@@ -4,6 +4,9 @@ angular.module('starter.controllers', [])
   Stories.all().then(function(data) {
       $scope.stories = data;
   });
+  $scope.doRefresh = function() {
+    $window.location.reload(true);
+  };
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {

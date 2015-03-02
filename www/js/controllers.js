@@ -1,7 +1,9 @@
 angular.module('starter.controllers', [])
 
 .controller('NewsCtrl', function($scope, Stories) {
-  $scope.stories = Stories.all();
+  Stories.all().then(function(data) {
+      $scope.stories = data;
+  });
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {

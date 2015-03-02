@@ -10,11 +10,7 @@ angular.module('starter.services', [])
       $http.get(url).success(function(data) {
         defer.resolve(data);
         console.log(data);
-        console.log("Data finished loading.");
-        final = data;
       })
-        console.log("Data promised");
-        console.log(defer.promise);
         return defer.promise;
     }
   }

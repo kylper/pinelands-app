@@ -1,4 +1,9 @@
 /* Empty. Add your own CSS if you like */
+
+body {
+  background-color: #ebe5dd !important;
+}
+
 .smallArtistText {
   font-size: 24px;
 }

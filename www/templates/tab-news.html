@@ -1,11 +1,12 @@
 <ion-view view-title="News">
-  <ion-content class="padding">
-    <ion-refresher
+  <ion-content class="padding" style="background-color: #174957;">
+    <!-- #3C9682 -->
+    <!-- <ion-refresher
       on-refresh="doRefresh()">
-    </ion-refresher>
+    </ion-refresher> -->
 
     <div class="list card" ng-repeat="story in stories">
-      <div class="item item-body">
+      <div class="item item-body item-lime">
           <p>{{story.text}}</p>
           <small>{{story.date}}</small>
       </div>

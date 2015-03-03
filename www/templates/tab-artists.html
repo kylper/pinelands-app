@@ -1,9 +1,11 @@
 <ion-view view-title="Artists">
-  <ion-content>
+  <ion-content style="background-color: #174957;">
     <ion-list>
-      <ion-item class="item-avatar" ng-repeat="artist in artists" type="item-text-wrap" href="#/tab/artist/{{artist.id}}">
-        <!-- <img ng-src="{{artist.image}}"></img> -->
+      <ion-item class="item-avatar item-darkblue" ng-repeat="artist in artists" type="item-text-wrap" href="#/tab/artist/{{artist.id}}">
+        <img ng-src="{{artist.image}}"></img>
+        <!-- <div style="display: inline-block; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-right: 5px; width: 40px; height: 40px; background-image: url('{{artist.image}}'); background-size: cover; background-position: center center;"></div>-->
         <h2>{{artist.name}}</h2>
+        <!-- display: inline-block; vertical-align:center; margin-bottom: 10px; -->
       </ion-item>
     </ion-list>
   </ion-content>

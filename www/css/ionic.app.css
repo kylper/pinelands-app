@@ -4110,11 +4110,11 @@ ion-tabs.tabs-color-active-tan .tab-item {
   ion-tabs.tabs-color-active-tan .tab-item.tab-item-active, ion-tabs.tabs-color-active-tan .tab-item.active, ion-tabs.tabs-color-active-tan .tab-item.activated {
     color: #ebe5dd; }
 ion-tabs.tabs-color-active-green .tab-item {
-  color: #fff; }
+  color: #444; }
   ion-tabs.tabs-color-active-green .tab-item.tab-item-active, ion-tabs.tabs-color-active-green .tab-item.active, ion-tabs.tabs-color-active-green .tab-item.activated {
     color: #3C9682; }
 ion-tabs.tabs-color-active-darkblue .tab-item {
-  color: #fff; }
+  color: #444; }
   ion-tabs.tabs-color-active-darkblue .tab-item.tab-item-active, ion-tabs.tabs-color-active-darkblue .tab-item.active, ion-tabs.tabs-color-active-darkblue .tab-item.activated {
     color: #174957; }
 

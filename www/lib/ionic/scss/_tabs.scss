@@ -337,8 +337,8 @@ ion-tabs {
   //Custom Theme Colors
   @include tabs-standard-color('tabs-color-active-lime', $themelime, $dark);
   @include tabs-standard-color('tabs-color-active-tan', $themetan, $dark);
-  @include tabs-standard-color('tabs-color-active-green', $themegreen, $light);
-  @include tabs-standard-color('tabs-color-active-darkblue', $themedarkblue, $light);
+  @include tabs-standard-color('tabs-color-active-green', $themegreen, $dark);
+  @include tabs-standard-color('tabs-color-active-darkblue', $themedarkblue, $dark);
 }
 
 .tabs-top {

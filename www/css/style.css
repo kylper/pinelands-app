@@ -59,8 +59,14 @@ body {
   font-family:"Bebas", sans-serif;
 }
 
-.bebas {
+.bebasMedium {
   font-family:"Bebas", sans-serif;
+  font-size: 24px;
+}
+
+.bebasLarge {
+  font-family:"Bebas", sans-serif;
+  font-size: 30px;
 }
 
 .smallArtistText {

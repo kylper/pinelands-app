@@ -1,8 +1,8 @@
-<ion-view view-title="Artists">
+<ion-view view-title="Lineup">
   <ion-content class="theme-darkbrown bebas">
     <ion-list>
       <ion-item class='item item-{{artist.theme}}' ng-repeat="artist in artists" type="item-text-wrap" href="#/app/artists/{{artist.id}}">
-        <h2>{{artist.name}}</h2>
+        <h1 class="bebasMedium theme-{{artist.theme}}">{{artist.name}}</h2>
       </ion-item>
     </ion-list>
   </ion-content>

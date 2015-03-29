@@ -121,28 +121,58 @@
     }
   }
   // Custom Theme Colors
-  &.bar-lime {
-    @include bar-style($bar-lime-bg, $bar-lime-border, $bar-lime-text);
-    &.bar-footer{
-      background-image: linear-gradient(180deg, $bar-lime-border, $bar-lime-border 50%, transparent 50%);
-    }
-  }
   &.bar-tan {
     @include bar-style($bar-tan-bg, $bar-tan-border, $bar-tan-text);
     &.bar-footer{
       background-image: linear-gradient(180deg, $bar-tan-border, $bar-tan-border 50%, transparent 50%);
     }
   }
-  &.bar-green {
-    @include bar-style($bar-green-bg, $bar-green-border, $bar-green-text);
+  &.bar-darkbrown {
+    @include bar-style($bar-darkbrown-bg, $bar-darkbrown-border, $bar-darkbrown-text);
     &.bar-footer{
-      background-image: linear-gradient(180deg, $bar-green-border, $bar-green-border 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $bar-darkbrown-border, $bar-darkbrown-border 50%, transparent 50%);
+    }
+  }
+  &.bar-lightbrown {
+    @include bar-style($bar-lightbrown-bg, $bar-lightbrown-border, $bar-lightbrown-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-lightbrown-border, $bar-lightbrown-border 50%, transparent 50%);
+    }
+  }
+  &.bar-darkorange {
+    @include bar-style($bar-darkorange-bg, $bar-darkorange-border, $bar-darkorange-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-darkorange-border, $bar-darkorange-border 50%, transparent 50%);
+    }
+  }
+  &.bar-lightorange {
+    @include bar-style($bar-lightorange-bg, $bar-lightorange-border, $bar-lightorange-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-lightorange-border, $bar-lightorange-border 50%, transparent 50%);
+    }
+  }
+  &.bar-darkgreen {
+    @include bar-style($bar-darkgreen-bg, $bar-darkgreen-border, $bar-darkgreen-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-darkgreen-border, $bar-darkgreen-border 50%, transparent 50%);
+    }
+  }
+  &.bar-lightgreen {
+    @include bar-style($bar-lightgreen-bg, $bar-lightgreen-border, $bar-lightgreen-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-lightgreen-border, $bar-lightgreen-border 50%, transparent 50%);
     }
   }
   &.bar-darkblue {
     @include bar-style($bar-darkblue-bg, $bar-darkblue-border, $bar-darkblue-text);
     &.bar-footer{
       background-image: linear-gradient(180deg, $bar-darkblue-border, $bar-darkblue-border 50%, transparent 50%);
+    }
+  }
+  &.bar-lightblue {
+    @include bar-style($bar-lightblue-bg, $bar-lightblue-border, $bar-lightblue-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-lightblue-border, $bar-lightblue-border 50%, transparent 50%);
     }
   }
 
@@ -343,29 +373,58 @@
 }
 
 // Custom Theme Colors
-
-.bar-lime {
-  .button {
-    @include button-style($bar-lime-bg, $bar-lime-border, $bar-lime-active-bg, $bar-lime-active-border, $bar-lime-text);
-    @include button-clear($bar-lime-text, $bar-title-font-size);
-  }
-}
 .bar-tan {
   .button {
     @include button-style($bar-tan-bg, $bar-tan-border, $bar-tan-active-bg, $bar-tan-active-border, $bar-tan-text);
-    @include button-clear($bar-tan-text, $bar-title-font-size);
+    @include button-clear(#fff, $bar-title-font-size);
   }
 }
-.bar-green {
+.bar-darkorange {
   .button {
-    @include button-style($bar-green-bg, $bar-green-border, $bar-green-active-bg, $bar-green-active-border, $bar-green-text);
-    @include button-clear($bar-green-text, $bar-title-font-size);
+    @include button-style($bar-darkorange-bg, $bar-darkorange-border, $bar-darkorange-active-bg, $bar-darkorange-active-border, $bar-darkorange-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-lightorange {
+  .button {
+    @include button-style($bar-lightorange-bg, $bar-lightorange-border, $bar-lightorange-active-bg, $bar-lightorange-active-border, $bar-lightorange-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-darkbrown {
+  .button {
+    @include button-style($bar-darkbrown-bg, $bar-darkbrown-border, $bar-darkbrown-active-bg, $bar-darkbrown-active-border, $bar-darkbrown-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-lightbrown {
+  .button {
+    @include button-style($bar-lightbrown-bg, $bar-lightbrown-border, $bar-lightbrown-active-bg, $bar-lightbrown-active-border, $bar-lightbrown-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-darkgreen {
+  .button {
+    @include button-style($bar-darkgreen-bg, $bar-darkgreen-border, $bar-darkgreen-active-bg, $bar-darkgreen-active-border, $bar-darkgreen-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-lightgreen {
+  .button {
+    @include button-style($bar-lightgreen-bg, $bar-lightgreen-border, $bar-lightgreen-active-bg, $bar-lightgreen-active-border, $bar-lightgreen-text);
+    @include button-clear(#fff, $bar-title-font-size);
   }
 }
 .bar-darkblue {
   .button {
     @include button-style($bar-darkblue-bg, $bar-darkblue-border, $bar-darkblue-active-bg, $bar-darkblue-active-border, $bar-darkblue-text);
-    @include button-clear($bar-darkblue-text, $bar-title-font-size);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-lightblue {
+  .button {
+    @include button-style($bar-lightblue-bg, $bar-lightblue-border, $bar-lightblue-active-bg, $bar-lightblue-active-border, $bar-lightblue-text);
+    @include button-clear(#fff, $bar-title-font-size);
   }
 }
 

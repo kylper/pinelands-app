@@ -1,0 +1,45 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-darkbrown">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-darkbrown">
+      <img src="img/logo-lightbrown.png" class="menulogo" />
+    </ion-header-bar>
+    <ion-content class="theme-darkbrown">
+      <ion-list>
+        <!-- <ion-item nav-clear menu-close ng-click="login()">
+          Login
+        </ion-item> -->
+        <ion-item class="item-lightbrown" nav-clear menu-close href="#/app/home">
+          HOME
+        </ion-item>
+        <ion-item class="item-lightorange" nav-clear menu-close href="#/app/artists">
+          LINEUP
+        </ion-item>
+        <ion-item class="item-darkorange" nav-clear menu-close href="#/app/home">
+          INFORMATION
+        </ion-item>
+        <ion-item class="item-darkblue" nav-clear menu-close href="#/app/home">
+          F.A.Q.
+        </ion-item>
+        <ion-item class="item-lightblue" nav-clear menu-close href="#/app/home">
+          SPONSORS
+        </ion-item>
+        <ion-item class="item-lightbrown" nav-clear menu-close href="#/app/news">
+            NEWS (temp)
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

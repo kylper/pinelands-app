@@ -24,56 +24,55 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
-  // setup an abstract state for the tabs directive
-  .state('tab', {
-    url: "/tab",
+  .state('app', {
+    url: "/app",
     abstract: true,
-    templateUrl: "templates/tabs.html"
+    templateUrl: "templates/menu.html"
+    /* controller: 'AppCtrl' */
   })
 
-  // Each tab has its own nav history stack:
-
-  .state('tab.home', {
+  .state('app.home', {
     url: "/home",
     views: {
-      'tab-home': {
-        templateUrl: 'templates/tab-home.html',
-        controller: 'HomeCtrl',
+      'menuContent': {
+        templateUrl: "templates/home.html",
+        controller: 'HomeCtrl'
       }
     }
   })
 
-  .state('tab.news', {
-    url: '/news',
-    views: {
-      'tab-news': {
-        templateUrl: 'templates/tab-news.html',
-        controller: 'NewsCtrl',
-      }
-    }
-  })
-
-  .state('tab.artists', {
-      url: '/artists',
+  .state('app.news', {
+      url: "/news",
       views: {
-        'tab-artists': {
-          templateUrl: 'templates/tab-artists.html',
+        'menuContent': {
+          templateUrl: "templates/news.html",
+          controller: 'NewsCtrl'
+        }
+      }
+    })
+
+  .state('app.artists', {
+      url: "/artists",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/artists.html",
           controller: 'ArtistsCtrl'
         }
       }
     })
-    .state('tab.artist-detail', {
-      url: '/artist/:artistId',
-      views: {
-        'tab-artists': {
-          templateUrl: 'templates/artist-detail.html',
-          controller: 'ArtistDetailCtrl'
-        }
+
+  .state('app.artistdetail', {
+    url: "/artists/:artistId",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/artist-detail.html",
+        controller: 'ArtistDetailCtrl'
       }
-    });
+    }
+  });
 
   // if none of the above states are matched, use this as the fallback
   //$urlRouterProvider.otherwise('/tab/news');
-  $urlRouterProvider.otherwise('/tab/home');
+  $urlRouterProvider.otherwise('/app/home');
 
 });

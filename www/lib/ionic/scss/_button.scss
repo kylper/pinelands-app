@@ -125,26 +125,53 @@
     @include button-outline($button-dark-bg);
   }
   // Custom Theme Colors
-  &.button-lime {
-    @include button-style($button-lime-bg, $button-lime-border, $button-lime-active-bg, $button-lime-active-border, $button-lime-text);
-    @include button-clear($button-lime-bg);
-    @include button-outline($button-lime-bg);
-  }
   &.button-tan {
     @include button-style($button-tan-bg, $button-tan-border, $button-tan-active-bg, $button-tan-active-border, $button-tan-text);
     @include button-clear($button-tan-bg);
     @include button-outline($button-tan-bg);
   }
-  &.button-green {
-    @include button-style($button-green-bg, $button-green-border, $button-green-active-bg, $button-green-active-border, $button-green-text);
-    @include button-clear($button-green-bg);
-    @include button-outline($button-green-bg);
+  &.button-darkbrown {
+    @include button-style($button-darkbrown-bg, $button-darkbrown-border, $button-darkbrown-active-bg, $button-darkbrown-active-border, $button-darkbrown-text);
+    @include button-clear($button-darkbrown-bg);
+    @include button-outline($button-darkbrown-bg);
+  }
+  &.button-lightbrown {
+    @include button-style($button-lightbrown-bg, $button-lightbrown-border, $button-lightbrown-active-bg, $button-lightbrown-active-border, $button-lightbrown-text);
+    @include button-clear($button-lightbrown-bg);
+    @include button-outline($button-lightbrown-bg);
+  }
+  &.button-darkorange {
+    @include button-style($button-darkorange-bg, $button-darkorange-border, $button-darkorange-active-bg, $button-darkorange-active-border, $button-darkorange-text);
+    @include button-clear($button-darkorange-bg);
+    @include button-outline($button-darkorange-bg);
+  }
+  &.button-lightorange {
+    @include button-style($button-lightorange-bg, $button-lightorange-border, $button-lightorange-active-bg, $button-lightorange-active-border, $button-lightorange-text);
+    @include button-clear($button-lightorange-bg);
+    @include button-outline($button-lightorange-bg);
+  }
+  &.button-darkgreen {
+    @include button-style($button-darkgreen-bg, $button-darkgreen-border, $button-darkgreen-active-bg, $button-darkgreen-active-border, $button-darkgreen-text);
+    @include button-clear($button-darkgreen-bg);
+    @include button-outline($button-darkgreen-bg);
+  }
+  &.button-lightgreen {
+    @include button-style($button-lightgreen-bg, $button-lightgreen-border, $button-lightgreen-active-bg, $button-lightgreen-active-border, $button-lightgreen-text);
+    @include button-clear($button-lightgreen-bg);
+    @include button-outline($button-lightgreen-bg);
   }
   &.button-darkblue {
     @include button-style($button-darkblue-bg, $button-darkblue-border, $button-darkblue-active-bg, $button-darkblue-active-border, $button-darkblue-text);
     @include button-clear($button-darkblue-bg);
     @include button-outline($button-darkblue-bg);
   }
+  &.button-lightblue {
+    @include button-style($button-lightblue-bg, $button-lightblue-border, $button-lightblue-active-bg, $button-lightblue-active-border, $button-lightblue-text);
+    @include button-clear($button-lightblue-bg);
+    @include button-outline($button-lightblue-bg);
+  }
+
+
 
 }
 

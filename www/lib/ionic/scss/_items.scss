@@ -96,18 +96,34 @@
     @include item-style($item-dark-bg, $item-dark-border, $item-dark-text);
   }
   // Custom Theme Colors
-  &.item-lime {
-    @include item-style($item-lime-bg, $item-lime-border, $item-lime-text);
-  }
   &.item-tan {
     @include item-style($item-tan-bg, $item-tan-border, $item-tan-text);
   }
-  &.item-green {
-    @include item-style($item-green-bg, $item-green-border, $item-green-text);
+  &.item-darkbrown {
+    @include item-style($item-darkbrown-bg, $item-darkbrown-border, $item-darkbrown-text);
+  }
+  &.item-lightbrown {
+    @include item-style($item-lightbrown-bg, $item-lightbrown-border, $item-lightbrown-text);
+  }
+  &.item-darkorange {
+    @include item-style($item-darkorange-bg, $item-darkorange-border, $item-darkorange-text);
+  }
+  &.item-lightorange {
+    @include item-style($item-lightorange-bg, $item-lightorange-border, $item-lightorange-text);
+  }
+  &.item-darkgreen {
+    @include item-style($item-darkgreen-bg, $item-darkgreen-border, $item-darkgreen-text);
+  }
+  &.item-lightgreen {
+    @include item-style($item-lightgreen-bg, $item-lightgreen-border, $item-lightgreen-text);
   }
   &.item-darkblue {
     @include item-style($item-darkblue-bg, $item-darkblue-border, $item-darkblue-text);
   }
+  &.item-lightblue {
+    @include item-style($item-lightblue-bg, $item-lightblue-border, $item-lightblue-text);
+  }
+
 
   &[ng-click]:hover {
     cursor: pointer;
@@ -158,18 +174,34 @@
     @include item-active-style($item-dark-active-bg, $item-dark-active-border);
   }
   // Custom Theme Colors
-  &.item-lime {
-    @include item-active-style($item-lime-active-bg, $item-lime-active-border);
-  }
   &.item-tan {
     @include item-active-style($item-tan-active-bg, $item-tan-active-border);
   }
-  &.item-green {
-    @include item-active-style($item-green-active-bg, $item-green-active-border);
+  &.item-darkbrown {
+    @include item-active-style($item-darkbrown-active-bg, $item-darkbrown-active-border);
+  }
+  &.item-lightbrown {
+    @include item-active-style($item-lightbrown-active-bg, $item-lightbrown-active-border);
+  }
+  &.item-darkorange {
+    @include item-active-style($item-darkorange-active-bg, $item-darkorange-active-border);
+  }
+  &.item-lightorange {
+    @include item-active-style($item-lightorange-active-bg, $item-lightorange-active-border);
+  }
+  &.item-darkgreen {
+    @include item-active-style($item-darkgreen-active-bg, $item-darkgreen-active-border);
+  }
+  &.item-lightgreen {
+    @include item-active-style($item-lightgreen-active-bg, $item-lightgreen-active-border);
   }
   &.item-darkblue {
     @include item-active-style($item-darkblue-active-bg, $item-darkblue-active-border);
   }
+  &.item-lightblue {
+    @include item-active-style($item-lightblue-active-bg, $item-lightblue-active-border);
+  }
+
 
 }
 
@@ -329,22 +361,46 @@ a.item-content {
     }
   }
   // Custom Theme Colors
-  &.item-lime > .item-content{
-    @include item-style($item-lime-bg, $item-lime-border, $item-lime-text);
-    &.active, &:active {
-      @include item-active-style($item-lime-active-bg, $item-lime-active-border);
-    }
-  }
   &.item-tan > .item-content{
     @include item-style($item-tan-bg, $item-tan-border, $item-tan-text);
     &.active, &:active {
       @include item-active-style($item-tan-active-bg, $item-tan-active-border);
     }
   }
-  &.item-green > .item-content{
-    @include item-style($item-green-bg, $item-green-border, $item-green-text);
+  &.item-darkbrown > .item-content{
+    @include item-style($item-darkbrown-bg, $item-darkbrown-border, $item-darkbrown-text);
     &.active, &:active {
-      @include item-active-style($item-green-active-bg, $item-green-active-border);
+      @include item-active-style($item-darkbrown-active-bg, $item-darkbrown-active-border);
+    }
+  }
+  &.item-lightbrown > .item-content{
+    @include item-style($item-lightbrown-bg, $item-lightbrown-border, $item-lightbrown-text);
+    &.active, &:active {
+      @include item-active-style($item-lightbrown-active-bg, $item-lightbrown-active-border);
+    }
+  }
+  &.item-darkorange > .item-content{
+    @include item-style($item-darkorange-bg, $item-darkorange-border, $item-darkorange-text);
+    &.active, &:active {
+      @include item-active-style($item-darkorange-active-bg, $item-darkorange-active-border);
+    }
+  }
+  &.item-lightorange > .item-content{
+    @include item-style($item-lightorange-bg, $item-lightorange-border, $item-lightorange-text);
+    &.active, &:active {
+      @include item-active-style($item-lightorange-active-bg, $item-lightorange-active-border);
+    }
+  }
+  &.item-darkgreen > .item-content{
+    @include item-style($item-darkgreen-bg, $item-darkgreen-border, $item-darkgreen-text);
+    &.active, &:active {
+      @include item-active-style($item-darkgreen-active-bg, $item-darkgreen-active-border);
+    }
+  }
+  &.item-lightgreen > .item-content{
+    @include item-style($item-lightgreen-bg, $item-lightgreen-border, $item-lightgreen-text);
+    &.active, &:active {
+      @include item-active-style($item-lightgreen-active-bg, $item-lightgreen-active-border);
     }
   }
   &.item-darkblue > .item-content{
@@ -353,6 +409,14 @@ a.item-content {
       @include item-active-style($item-darkblue-active-bg, $item-darkblue-active-border);
     }
   }
+  &.item-lightblue > .item-content{
+    @include item-style($item-lightblue-bg, $item-lightblue-border, $item-lightblue-text);
+    &.active, &:active {
+      @include item-active-style($item-lightblue-active-bg, $item-lightblue-active-border);
+    }
+  }
+
+
 }
 
 

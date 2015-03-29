@@ -132,15 +132,6 @@
     }
   }
   //Custom Theme Colors
-  &.item-lime  {
-    select{
-      background:$item-lime-bg;
-      color:$item-lime-text;
-    }
-    &:after, .input-label{
-      color:$item-lime-text;
-    }
-  }
   &.item-tan  {
     select{
       background:$item-tan-bg;
@@ -148,15 +139,6 @@
     }
     &:after, .input-label{
       color:$item-tan-text;
-    }
-  }
-  &.item-green  {
-    select{
-      background:$item-green-bg;
-      color:$item-green-text;
-    }
-    &:after, .input-label{
-      color:$item-green-text;
     }
   }
   &.item-darkblue  {

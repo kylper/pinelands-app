@@ -1,7 +1,66 @@
-/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasKaiRegular.eot');
+    src: url('../fonts/BebasKaiRegular.eot') format('embedded-opentype'),
+         url('../fonts/BebasKaiRegular.woff2') format('woff2'),
+         url('../fonts/BebasKaiRegular.woff') format('woff'),
+         url('../fonts/BebasKaiRegular.ttf') format('truetype'),
+         url('../fonts/BebasKaiRegular.svg#BebasKaiRegular') format('svg');
+}
 
 body {
   background-color: #ebe5dd !important;
+}
+
+// Background Colors
+.theme-tan {
+  background-color: #ebe5dd;
+  color: #2D2925;
+  font-family:"Bebas", sans-serif;
+}
+.theme-darkbrown {
+  background-color: #2D2925;
+  color: #4C403B;
+  font-family:"Bebas", sans-serif;
+}
+.theme-lightbrown {
+  background-color: #4C403B;
+  color: #2D2925;
+  font-family:"Bebas", sans-serif;
+}
+.theme-darkorange {
+  background-color: #A15124;
+  color: #C07129;
+  font-family:"Bebas", sans-serif;
+}
+.theme-lightorange {
+  background-color: #C07129;
+  color: #A15124;
+  font-family:"Bebas", sans-serif;
+}
+.theme-darkgreen {
+  background-color: #B2CC44;
+  color: #E1ECBB;
+  font-family:"Bebas", sans-serif;
+}
+.theme-lightgreen {
+  background-color: #E1ECBB;
+  color: #B2CC44;
+  font-family:"Bebas", sans-serif;
+}
+.theme-darkblue {
+  background-color: #133945;
+  color: #34856E;
+  font-family:"Bebas", sans-serif;
+}
+.theme-lightblue {
+  background-color: #34856E;
+  color: #133945;
+  font-family:"Bebas", sans-serif;
+}
+
+.bebas {
+  font-family:"Bebas", sans-serif;
 }
 
 .smallArtistText {
@@ -10,6 +69,13 @@ body {
 
 .regularArtistText {
   font-size: 30px;
+}
+
+.menulogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 30px;
 }
 
 .clockTransform {

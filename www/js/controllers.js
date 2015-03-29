@@ -26,10 +26,4 @@ angular.module('starter.controllers', [])
 
 .controller('ArtistDetailCtrl', function($scope, $stateParams, Artists) {
   $scope.artist = Artists.get($stateParams.artistId);
-})
-
-.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
 });

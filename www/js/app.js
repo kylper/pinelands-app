@@ -41,16 +41,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
 
-  .state('app.news', {
-      url: "/news",
-      views: {
-        'menuContent': {
-          templateUrl: "templates/news.html",
-          controller: 'NewsCtrl'
-        }
-      }
-    })
-
   .state('app.artists', {
       url: "/artists",
       views: {
@@ -62,14 +52,53 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     })
 
   .state('app.artistdetail', {
-    url: "/artists/:artistId",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/artist-detail.html",
-        controller: 'ArtistDetailCtrl'
+      url: "/artists/:artistId",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/artist-detail.html",
+          controller: 'ArtistDetailCtrl'
+        }
       }
-    }
-  });
+    })
+
+  .state('app.information', {
+      url: "/info",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/info.html"
+          /* controller: 'InfoCtrl' */
+        }
+      }
+    })
+
+  .state('app.faq', {
+      url: "/faq",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/faq.html"
+          /* controller: 'FAQCtrl' */
+        }
+      }
+    })
+
+  .state('app.sponsors', {
+      url: "/sponsors",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/sponsors.html"
+        }
+      }
+    })
+
+  .state('app.news', {
+      url: "/news",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/news.html",
+          controller: 'NewsCtrl'
+        }
+      }
+    });
 
   // if none of the above states are matched, use this as the fallback
   //$urlRouterProvider.otherwise('/tab/news');

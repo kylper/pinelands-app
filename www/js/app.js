@@ -88,16 +88,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           templateUrl: "templates/sponsors.html"
         }
       }
-    })
-
-  .state('app.news', {
-      url: "/news",
-      views: {
-        'menuContent': {
-          templateUrl: "templates/news.html",
-          controller: 'NewsCtrl'
-        }
-      }
     });
 
   // if none of the above states are matched, use this as the fallback

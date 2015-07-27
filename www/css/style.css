@@ -16,66 +16,57 @@ body {
 }
 /* Background Colors */
 .theme-tan {
-  background-color: #ebe5dd;
-  color: #2D2925;
-  font-family:"Bebas", sans-serif;
+  background-color: #ebe5dd !important;
+  color: #2D2925 !important;
 }
 .theme-darkbrown {
-  background-color: #2D2925;
-  color: #4C403B;
-  font-family:"Bebas", sans-serif;
+  background-color: #2D2925 !important;
+  color: #4C403B !important;
 }
 .theme-lightbrown {
-  background-color: #4C403B;
-  color: #2D2925;
-  font-family:"Bebas", sans-serif;
+  background-color: #4C403B !important;
+  color: #2D2925 !important;
 }
 .theme-darkorange {
-  background-color: #A15124;
-  color: #C07129;
-  font-family:"Bebas", sans-serif;
+  background-color: #A15124 !important;
+  color: #C07129 !important;
 }
 .theme-lightorange {
-  background-color: #C07129;
-  color: #A15124;
-  font-family:"Bebas", sans-serif;
+  background-color: #C07129 !important;
+  color: #A15124 !important;
 }
 .theme-darkgreen {
-  background-color: #B2CC44;
-  color: #E1ECBB;
-  font-family:"Bebas", sans-serif;
+  background-color: #B2CC44 !important;
+  color: #E1ECBB !important;
 }
 .theme-lightgreen {
-  background-color: #E1ECBB;
-  color: #B2CC44;
-  font-family:"Bebas", sans-serif;
+  background-color: #E1ECBB !important;
+  color: #B2CC44 !important;
 }
 .theme-darkblue {
-  background-color: #133945;
-  color: #34856E;
-  font-family:"Bebas", sans-serif;
+  background-color: #133945 !important;
+  color: #34856E !important;
 }
 .theme-lightblue {
-  background-color: #34856E;
-  color: #133945;
-  font-family:"Bebas", sans-serif;
+  background-color: #34856E !important;
+  color: #133945 !important;
 }
 
 .bebasSmall {
   font-family:"Bebas", sans-serif;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 .bebasMedium {
   font-family:"Bebas", sans-serif;
-  font-size: 24px;
+  font-size: 24px !important;
 }
 .bebasLarge {
   font-family:"Bebas", sans-serif;
-  font-size: 32px;
+  font-size: 32px !important;
 }
 .bebasXL {
   font-family:"Bebas", sans-serif;
-  font-size: 38px;
+  font-size: 38px !important;
 }
 
 .centerElement {

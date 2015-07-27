@@ -23,122 +23,176 @@ angular.module('starter.services', [])
     id: 0,
     name: 'The Early November',
     location: 'Hammonton, NJ',
-    image: 'https://pbs.twimg.com/profile_images/434719844811149312/wVhoIQVD.jpeg',
+    image: 'img/artists/1.png',
     theme: 'lightorange'
   }, {
     id: 1,
     name: 'Jukebox The Ghost',
     location: 'Philadelphia, PA',
-    image: '',
+    image: 'img/artists/2.png',
     theme: 'darkorange'
   }, {
     id: 2,
-    name: 'Hellogoodbye',
-    location: 'Long Beach, CA',
-    image: '',
+    name: 'The Spill Canvas',
+    location: 'Sioux Falls, SD',
+    image: 'img/artists/3.png',
     theme: 'darkblue'
   }, {
     id: 3,
-    name: 'Magic Man',
-    location: 'Boston, MA',
-    image: '',
+    name: 'X Ambassadors',
+    location: 'Brooklyn, NY',
+    image: 'img/artists/4.png',
     theme: 'lightblue'
   }, {
     id: 4,
     name: 'Good Old War',
     location: 'Philadelphia, PA',
-    image: '',
+    image: 'img/artists/5.png',
     theme: 'darkgreen'
   }, {
     id: 5,
-    name: 'X Ambassadors',
-    location: 'Brooklyn, NY',
-    image: '',
+    name: 'Hellogoodbye',
+    location: 'Long Beach, CA',
+    image: 'img/artists/6.png',
     theme: 'lightgreen'
   }, {
     id: 6,
-    name: 'You Blew It!',
-    location: 'Orlando, FL',
-    image: '',
+    name: 'Vacationer',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/7.png',
     theme: 'lightorange'
   }, {
     id: 7,
-    name: 'You Me and Everyone We Know',
-    location: 'Lancaster, PA',
-    image: '',
+    name: 'Cruisr',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/8.png',
     theme: 'darkorange'
   }, {
     id: 8,
-    name: 'A Great Big Pile of Leaves',
-    location: 'Brooklyn, NY',
-    image: '',
+    name: 'You Blew It!',
+    location: 'Orlando, FL',
+    image: 'img/artists/9.png',
     theme: 'darkblue'
   }, {
     id: 9,
-    name: 'Northern Faces',
-    location: 'Albany, NY',
-    image: '',
+    name: 'You Me & Everyone We Know',
+    location: 'Lancaster, PA',
+    image: 'img/artists/10.png',
     theme: 'lightblue'
   }, {
     id: 10,
-    name: 'Young Statues',
-    location: 'Philadelphia, PA',
-    image: '',
+    name: 'A Great Big Pile Of Leaves',
+    location: 'Brooklyn, NY',
+    image: 'img/artists/11.png',
     theme: 'darkgreen'
   }, {
     id: 11,
-    name: 'Raccoon Fighter',
-    location: 'Brooklyn, NY',
-    image: '',
+    name: 'Northern Faces',
+    location: 'Albany, NY',
+    image: 'img/artists/12.png',
     theme: 'lightgreen'
   }, {
     id: 12,
-    name: 'Where the Ocean Meets the Sky',
-    location: 'South Jersey',
-    image: '',
+    name: 'Young Statues',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/13.png',
     theme: 'lightorange'
   }, {
     id: 13,
-    name: 'Cheezy and the Crackers',
-    location: 'Millville, NJ',
-    image: '',
+    name: 'Raccoon Fighter',
+    location: 'Brooklyn, NY',
+    image: 'img/artists/14.png',
     theme: 'darkorange'
   }, {
     id: 14,
-    name: 'Liam & Me',
+    name: 'Mo Lowda & The Humble',
     location: 'Philadelphia, PA',
-    image: '',
+    image: 'img/artists/15.png',
     theme: 'darkblue'
   }, {
     id: 15,
-    name: 'Plantation',
-    location: 'Philadelphia, PA',
-    image: '',
+    name: 'Your Persona',
+    location: 'Hammonton, NJ',
+    image: 'img/artists/16.png',
     theme: 'lightblue'
   }, {
     id: 16,
-    name: 'Man on a Mountain',
-    location: 'Philadelphia, PA',
-    image: '',
+    name: 'Days Like These',
+    location: 'Vineland, NJ',
+    image: 'img/artists/17.png',
     theme: 'darkgreen'
   }, {
     id: 17,
-    name: 'Stellar Young',
-    location: 'Albany, NY',
-    image: '',
+    name: 'Liam & Me',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/18.png',
     theme: 'lightgreen'
   }, {
     id: 18,
-    name: 'Locals',
-    location: 'Philadelphia, PA',
-    image: '',
+    name: 'Bonfires',
+    location: 'Chicago, IL',
+    image: 'img/artists/19.png',
     theme: 'lightorange'
   }, {
     id: 19,
+    name: 'The Color & Sound',
+    location: 'Boston, MA',
+    image: 'img/artists/20.png',
+    theme: 'darkorange'
+  }, {
+    id: 20,
+    name: 'No Such Noise',
+    location: 'Sicklerville, NJ',
+    image: 'img/artists/21.png',
+    theme: 'darkblue'
+  }, {
+    id: 21,
+    name: 'Stellar Young',
+    location: 'Albany, NY',
+    image: 'img/artists/22.png',
+    theme: 'lightblue'
+  }, {
+    id: 22,
+    name: 'The Press War',
+    location: 'Boston, MA',
+    image: 'img/artists/23.png',
+    theme: 'darkgreen'
+  }, {
+    id: 23,
+    name: 'Cheezy & The Crackers',
+    location: 'Millville, NJ',
+    image: 'img/artists/24.png',
+    theme: 'lightgreen'
+  }, {
+    id: 24,
+    name: 'Plantation',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/25.png',
+    theme: 'lightorange'
+  }, {
+    id: 25,
+    name: 'Man On A Mountain',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/26.png',
+    theme: 'darkorange'
+  }, {
+    id: 26,
+    name: 'Where The Ocean Meets The Sky',
+    location: 'South Jersey',
+    image: 'img/artists/27.png',
+    theme: 'darkblue'
+  }, {
+    id: 27,
+    name: 'Palmas',
+    location: 'Philadelphia, PA',
+    image: 'img/artists/28.png',
+    theme: 'lightblue'
+  }, {
+    id: 28,
     name: 'Sleepyface',
     location: 'South Jersey',
-    image: '',
-    theme: 'darkorange'
+    image: 'img/artists/29.png',
+    theme: 'darkgreen'
   }
   ];
 

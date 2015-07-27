@@ -4,11 +4,12 @@ angular.module('starter.controllers', [])
   $scope.Link = function (url) {
     window.open(url,'_system');
   };
-  var currentDate = new Date();
+  /* var currentDate = new Date();
   var futureDate = new Date(2015, 7, 15, 12) ;
   var timeDiff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
   var clock = new FlipClock($('.countdownClock'), timeDiff, {countdown: true, clockFace: 'DailyCounter'});
+  */
 })
 
 .controller('NewsCtrl', function($scope, Stories) {

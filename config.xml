@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.PinelandsMF" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>PinelandsMF</name>
+<widget id="com.pinelandsmf.pinelands" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Pinelands Music Festival</name>
   <description>
-        The official app for the Pinelands Music Festival 2015.
+        This is the official app for the Pinelands Music Festival in Millville, NJ!
     </description>
-  <author email="kyle@varninja.com" href="http://varninja.com/">
-      Kyle Permuy
+  <author email="nick@pinelandsmusicfest.com" href="http://pinelandsmusicfest.com/">
+      Pinelands Entertainment LLC
     </author>
   <content src="index.html"/>
   <access origin="*"/>

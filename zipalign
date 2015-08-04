@@ -1,0 +1,9 @@
+$ANDROID_HOME/build-tools/22.0.1/zipalign -v 4 /Users/kyle/Git/pinelands-app/platforms/android/build/outputs/apk/android-release-unsigned.apk /Users/kyle/Git/pinelands-app/platforms/android/build/outputs/apk/android-release-unsigned-aligned.apk
+
+keytool -genkey -v -keystore pinelandskey.keystore -alias Pinelands -keyalg RSA -keysize 2048 -validity 10000
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore pinelandskey.keystore /Users/kyle/Git/pinelands-app/platforms/android/build/outputs/apk/android-release-unsigned-aligned.apk Pinelands
+
+<<generic_password>>
+
+$ANDROID_HOME/build-tools/22.0.1/zipalign -v 4 /Users/kyle/Git/pinelands-app/platforms/android/build/outputs/apk/android-release.apk /Users/kyle/Git/pinelands-app/platforms/android/build/outputs/apk/android-release-ready.apk 

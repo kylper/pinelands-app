@@ -1,21 +1,11 @@
-// Ionic Starter App
-
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-// 'starter.services' is found in services.js
-// 'starter.controllers' is found in controllers.js
 angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
     if (window.StatusBar) {
-      // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
   });
@@ -25,20 +15,19 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
   $stateProvider
 
   .state('app', {
-    url: "/app",
-    abstract: true,
-    templateUrl: "templates/menu.html"
-    /* controller: 'AppCtrl' */
+      url: "/app",
+      abstract: true,
+      templateUrl: "templates/menu.html"
   })
 
   .state('app.home', {
-    url: "/home",
-    views: {
-      'menuContent': {
-        templateUrl: "templates/home.html",
-        controller: 'HomeCtrl'
+      url: "/home",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/home.html",
+          controller: 'HomeCtrl'
+        }
       }
-    }
   })
 
   .state('app.artists', {
@@ -49,7 +38,7 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
           controller: 'ArtistsCtrl'
         }
       }
-    })
+  })
 
   .state('app.artistdetail', {
       url: "/artists/:artistId",
@@ -59,7 +48,7 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
           controller: 'ArtistDetailCtrl'
         }
       }
-    })
+  })
 
   .state('app.information', {
       url: "/info",
@@ -69,17 +58,34 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
           /* controller: 'InfoCtrl' */
         }
       }
-    })
+  })
 
   .state('app.faq', {
       url: "/faq",
       views: {
         'menuContent': {
           templateUrl: "templates/faq.html"
-          /* controller: 'FAQCtrl' */
         }
       }
-    })
+  })
+
+  .state('app.map', {
+      url: "/map",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/map.html"
+        }
+      }
+  })
+
+  .state('app.setlist', {
+      url: "/setlist",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/setlist.html"
+        }
+      }
+  })
 
   .state('app.sponsors', {
       url: "/sponsors",
@@ -88,10 +94,26 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
           templateUrl: "templates/sponsors.html"
         }
       }
-    });
+  })
 
-  // if none of the above states are matched, use this as the fallback
-  //$urlRouterProvider.otherwise('/tab/news');
+  .state('app.venue', {
+      url: "/venue",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/venue.html"
+        }
+      }
+  })
+
+  .state('app.about', {
+      url: "/about",
+      views: {
+        'menuContent': {
+          templateUrl: "templates/about.html"
+        }
+      }
+  });
+
   $urlRouterProvider.otherwise('/app/home');
 
 });

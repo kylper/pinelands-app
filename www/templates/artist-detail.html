@@ -9,9 +9,9 @@
         <div class="piBlock"><img src="img/glyphs/clock.svg" alt="Set Time" /><p>{{artist.time}}</p></div>
       </div>
       <div class="socialSection">
-        <img class="socialglyph" src="img/glyphs/facebook.svg" alt="Facebook "/>
-        <img class="socialglyph" src="img/glyphs/twitter.svg" alt="Twitter" />
-        <img class="socialglyph" src="img/glyphs/instagram.svg" alt="Instagram" />
+        <a ng-click="Link('https://www.facebook.com/{{artist.facebook}}')"><img class="socialglyph" src="img/glyphs/facebook.svg" alt="Facebook "/></a>
+        <a ng-click="Link('https://www.twitter.com/{{artist.twitter}}')"><img class="socialglyph" src="img/glyphs/twitter.svg" alt="Twitter" /></a>
+        <a ng-click="Link('https://instagram.com/{{artist.instagram}}')"><img class="socialglyph" src="img/glyphs/instagram.svg" alt="Instagram" /></a>
       </div>
     </div>
   </ion-content>

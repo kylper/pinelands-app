@@ -3,16 +3,19 @@
 
   <img style="max-width: 450px; display: block; margin-left: auto; margin-right: auto; margin-top: 10px; width: 90%; height: auto;" src="img/logo-lightbrown.png"></img>
 
-  <br />
-  <hr />
-  <br />
+  <!-- <br /> -->
+  <hr style="margin: 30px 20px 20px;" />
 
-  <button class="button button-block theme-darkorange bebasLarge">
-    <p class="centerElement padding">Hello</p>
-  </button>
-  <button class="button button-block theme-lightblue bebasLarge">
-    <p class="centerElement padding">Hello</p>
-  </button>
+  <ion-list class="menuOptions centerElement">
+    <!-- href="#/app/map" -->
+    <a href="#/app/map"><ion-item class="theme-lightblue">
+      <img src="img/glyphs/pindrop.svg" /><h1 class="theme-lightblue bebasLarge">Map</h1>
+    </ion-item></a>
+    <br />
+    <a href="#/app/setlist"><ion-item class="theme-darkorange">
+      <h1 class="theme-darkorange bebasLarge">Setlist</h1>
+    </ion-item></a>
+  </ion-list>
 
 </ion-content>
 </ion-view>

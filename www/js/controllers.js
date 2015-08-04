@@ -1,5 +1,4 @@
-angular.module('starter.controllers', [])
-
+angular.module('pinelands.controllers', [])
 .controller('HomeCtrl', function($scope, $stateParams) {
   $scope.Link = function (url) {
     window.open(url,'_system');

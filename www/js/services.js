@@ -1,4 +1,4 @@
-angular.module('starter.services', [])
+angular.module('pinelands.services', [])
 
 /*
 .factory('Stories', function($http, $q) {

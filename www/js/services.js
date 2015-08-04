@@ -28,7 +28,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/1.png',
     theme: 'lightorange',
     stage: 'Main Stage',
-    time: '12:45'
+    time: '12:45',
+    facebook: 'earlynovember',
+    twitter: 'theearlynov',
+    instagram: 'theearlynovember'
   }, {
     id: 1,
     name: 'Jukebox The Ghost',
@@ -36,7 +39,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/2.png',
     theme: 'darkorange',
     stage: 'Main Stage',
-    time: '1:45'
+    time: '1:45',
+    facebook: 'jukeboxtheghost',
+    twitter: 'JukeboxtheGhost',
+    instagram: 'jukeboxtheghost'
   }, {
     id: 2,
     name: 'The Spill Canvas',
@@ -44,7 +50,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/3.png',
     theme: 'darkblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'thespillcanvas',
+    twitter: 'thespillcanvas',
+    instagram: 'thespillcanvasofficial'
   }, {
     id: 3,
     name: 'X Ambassadors',
@@ -52,7 +61,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/4.png',
     theme: 'lightblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'XAmbassadors',
+    twitter: 'XAmbassadors',
+    instagram: 'XAmbassadors'
   }, {
     id: 4,
     name: 'Good Old War',
@@ -60,7 +72,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/5.png',
     theme: 'darkgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'GoodOldWar',
+    twitter: 'GoodOldWar',
+    instagram: 'GoodOldWar'
   }, {
     id: 5,
     name: 'Hellogoodbye',
@@ -68,7 +83,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/6.png',
     theme: 'lightgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'hellogoodbyeband',
+    twitter: 'itshellogoodbye',
+    instagram: 'itshellogoodbye'
   }, {
     id: 6,
     name: 'Vacationer',
@@ -76,7 +94,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/7.png',
     theme: 'lightorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'vacationermusic',
+    twitter: 'VacationerBand',
+    instagram: 'vacationing'
   }, {
     id: 7,
     name: 'Cruisr',
@@ -84,7 +105,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/8.png',
     theme: 'darkorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'cruisrtheband',
+    twitter: 'CRUISR',
+    instagram: 'cruisr'
   }, {
     id: 8,
     name: 'You Blew It!',
@@ -92,7 +116,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/9.png',
     theme: 'darkblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'youblewitfl',
+    twitter: 'youblewit',
+    instagram: 'youblewit'
   }, {
     id: 9,
     name: 'You Me & Everyone We Know',
@@ -100,7 +127,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/10.png',
     theme: 'lightblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'youmeandeveryoneweknow',
+    twitter: 'YMAEWK',
+    instagram: 'ymaewk'
   }, {
     id: 10,
     name: 'A Great Big Pile Of Leaves',
@@ -108,7 +138,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/11.png',
     theme: 'darkgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'agreatbigpileofleaves',
+    twitter: 'AGBPOL',
+    instagram: 'agreatbigpileofleaves'
   }, {
     id: 11,
     name: 'Northern Faces',
@@ -116,7 +149,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/12.png',
     theme: 'lightgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'northernfaces',
+    twitter: 'northernfaces',
+    instagram: 'northernfaces'
   }, {
     id: 12,
     name: 'Young Statues',
@@ -124,7 +160,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/13.png',
     theme: 'lightorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 13,
     name: 'Raccoon Fighter',
@@ -132,7 +171,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/14.png',
     theme: 'darkorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'RaccoonFighter',
+    twitter: 'RACCOONFIGHTER',
+    instagram: 'RACCOONFIGHTER'
   }, {
     id: 14,
     name: 'Mo Lowda & The Humble',
@@ -140,7 +182,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/15.png',
     theme: 'darkblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'MoLowda',
+    twitter: 'MoLowda',
+    instagram: 'MoLowda'
   }, {
     id: 15,
     name: 'Your Persona',
@@ -148,7 +193,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/16.png',
     theme: 'lightblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: 'YourPersonaBand',
+    twitter: 'YPOfficial',
+    instagram: 'your_persona'
   }, {
     id: 16,
     name: 'Days Like These',
@@ -156,7 +204,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/17.png',
     theme: 'darkgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 17,
     name: 'Liam & Me',
@@ -164,7 +215,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/18.png',
     theme: 'lightgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 18,
     name: 'Bonfires',
@@ -172,7 +226,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/19.png',
     theme: 'lightorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 19,
     name: 'The Color & Sound',
@@ -180,7 +237,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/20.png',
     theme: 'darkorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 20,
     name: 'No Such Noise',
@@ -188,7 +248,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/21.png',
     theme: 'darkblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 21,
     name: 'Stellar Young',
@@ -196,7 +259,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/22.png',
     theme: 'lightblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 22,
     name: 'The Press War',
@@ -204,7 +270,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/23.png',
     theme: 'darkgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 23,
     name: 'Cheezy & The Crackers',
@@ -212,7 +281,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/24.png',
     theme: 'lightgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 24,
     name: 'Plantation',
@@ -220,7 +292,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/25.png',
     theme: 'lightorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 25,
     name: 'Man On A Mountain',
@@ -228,7 +303,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/26.png',
     theme: 'darkorange',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 26,
     name: 'Where The Ocean Meets The Sky',
@@ -236,7 +314,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/27.png',
     theme: 'darkblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 27,
     name: 'Palmas',
@@ -244,7 +325,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/28.png',
     theme: 'lightblue',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }, {
     id: 28,
     name: 'Sleepyface',
@@ -252,7 +336,10 @@ angular.module('pinelands.services', [])
     image: 'img/artists/29.png',
     theme: 'darkgreen',
     stage: '',
-    time: ''
+    time: '',
+    facebook: '',
+    twitter: '',
+    instagram: ''
   }
   ];
 

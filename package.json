@@ -1,6 +1,6 @@
 {
   "name": "PinelandsMF",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The official app for the Pinelands Music Festival.",
   "dependencies": {
     "gulp": "^3.5.6",

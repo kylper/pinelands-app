@@ -1,6 +1,21 @@
-<ion-view view-title="Map">
+<ion-view view-title="Setlist">
   <ion-content class="theme-tan padding centerElement">
-    <h1>Setlist</h1>
-    <p>Hello this is a cool setlist page. This is so awesome!</p>
+    <ion-list style="font-family: 'Bebas', sans-serif;">
+      <div class="item item-divider">Pinelands Stage</div>
+      <a style="text-decoration: none;" ng-repeat="item in pinelandsList" href="#/app/artists/{{item.artistID}}"><div class="item">
+        <h1 class="bebasMedium">{{item.artist}}</h1> <p>{{item.time}}</p>
+      </div></a>
+      <div class="item item-divider">Timber Stage</div>
+      <a style="text-decoration: none;" ng-repeat="item in timberList" href="#/app/artists/{{item.artistID}}"><div class="item">
+        <h1 class="bebasMedium">{{item.artist}}</h1> <p>{{item.time}}</p>
+      </div></a>
+      <div class="item item-divider">Vine Stage</div>
+      <a style="text-decoration: none;" ng-repeat="item in vineList" href="#/app/artists/{{item.artistID}}"><div class="item">
+        <h1 class="bebasMedium">{{item.artist}}</h1> <p>{{item.time}}</p>
+      </div></a>
+    </ion-list>
+    <br />
+    <p>Note: Times are subject to change without notice.</p>
+    <br />
   </ion-content>
 </ion-view>

@@ -24,8 +24,7 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
       url: "/home",
       views: {
         'menuContent': {
-          templateUrl: "templates/home.html",
-          controller: 'HomeCtrl'
+          templateUrl: "templates/home.html"
         }
       }
   })
@@ -82,7 +81,8 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
       url: "/setlist",
       views: {
         'menuContent': {
-          templateUrl: "templates/setlist.html"
+          templateUrl: "templates/setlist.html",
+          controller: 'SetlistCtrl'
         }
       }
   })

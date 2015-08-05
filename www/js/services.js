@@ -115,9 +115,9 @@ angular.module('pinelands.services', [])
     "location": "Philadelphia, PA",
     "image": "img/artists/13.png",
     "theme": "lightorange",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "youngstatues",
+    "twitter": "youngstatues",
+    "instagram": "youngstatues"
   }, {
     "id": 13,
     "name": "Raccoon Fighter",
@@ -151,7 +151,7 @@ angular.module('pinelands.services', [])
     "location": "Vineland, NJ",
     "image": "img/artists/17.png",
     "theme": "darkgreen",
-    "facebook": "",
+    "facebook": "daysliketheseband",
     "twitter": "",
     "instagram": ""
   }, {
@@ -160,8 +160,8 @@ angular.module('pinelands.services', [])
     "location": "Philadelphia, PA",
     "image": "img/artists/18.png",
     "theme": "lightgreen",
-    "facebook": "",
-    "twitter": "",
+    "facebook": "liamandmeband",
+    "twitter": "LiamandMe",
     "instagram": ""
   }, {
     "id": 18,
@@ -169,62 +169,62 @@ angular.module('pinelands.services', [])
     "location": "Chicago, IL",
     "image": "img/artists/19.png",
     "theme": "lightorange",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "bonfiresband",
+    "twitter": "bonfiresband",
+    "instagram": "bonfiresband"
   }, {
     "id": 19,
     "name": "The Color & Sound",
     "location": "Boston, MA",
     "image": "img/artists/20.png",
     "theme": "darkorange",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "TheColorAndSound",
+    "twitter": "TeamTCAS",
+    "instagram": "TheColorAndSound"
   }, {
     "id": 20,
     "name": "No Such Noise",
     "location": "Sicklerville, NJ",
     "image": "img/artists/21.png",
     "theme": "darkblue",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "nosuchnoise",
+    "twitter": "nosuchnoise",
+    "instagram": "nosuchnoise"
   }, {
     "id": 21,
     "name": "Stellar Young",
     "location": "Albany, NY",
     "image": "img/artists/22.png",
     "theme": "lightblue",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "stellaryoungmusic",
+    "twitter": "stellar_young",
+    "instagram": "stellar_young"
   }, {
     "id": 22,
     "name": "The Press War",
     "location": "Boston, MA",
     "image": "img/artists/23.png",
     "theme": "darkgreen",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "ThePressWar",
+    "twitter": "thepresswar",
+    "instagram": "thepresswar"
   }, {
     "id": 23,
     "name": "Cheezy & The Crackers",
     "location": "Millville, NJ",
     "image": "img/artists/24.png",
     "theme": "lightgreen",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "cheezyandthecrackers",
+    "twitter": "CrackerTwats",
+    "instagram": "Cheezyandthecrackers"
   }, {
     "id": 24,
     "name": "Plantation",
     "location": "Philadelphia, PA",
     "image": "img/artists/25.png",
     "theme": "lightorange",
-    "facebook": "",
-    "twitter": "",
+    "facebook": "PlantationBand",
+    "twitter": "PlantationBand",
     "instagram": ""
   }, {
     "id": 25,
@@ -232,17 +232,17 @@ angular.module('pinelands.services', [])
     "location": "Philadelphia, PA",
     "image": "img/artists/26.png",
     "theme": "darkorange",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "ManOnAMountain",
+    "twitter": "moamband",
+    "instagram": "moamband"
   }, {
     "id": 26,
     "name": "Where The Ocean Meets The Sky",
     "location": "South Jersey",
     "image": "img/artists/27.png",
     "theme": "darkblue",
-    "facebook": "",
-    "twitter": "",
+    "facebook": "wheretheoceanmeetsthesky",
+    "twitter": "wtomtsband",
     "instagram": ""
   }, {
     "id": 27,
@@ -250,20 +250,20 @@ angular.module('pinelands.services', [])
     "location": "Philadelphia, PA",
     "image": "img/artists/28.png",
     "theme": "lightblue",
-    "facebook": "",
-    "twitter": "",
-    "instagram": ""
+    "facebook": "PalmasTheBand",
+    "twitter": "PalmasTheBand",
+    "instagram": "PalmasTheBand"
   }, {
     "id": 28,
     "name": "Sleepyface",
     "location": "South Jersey",
     "image": "img/artists/29.png",
     "theme": "darkgreen",
-    "facebook": "",
-    "twitter": "",
+    "facebook": "slpyfc",
+    "twitter": "slpyfc",
     "instagram": ""
   },{
-    "lastUpdated" : "20150804"
+    "lastUpdated" : "20150805"
   }];
   var setlist = [{
     "id" : 0,
@@ -365,7 +365,7 @@ angular.module('pinelands.services', [])
         "time" :  "8:55pm"
     }]
   },
-    { "lastUpdated" : "20150802" }
+    { "lastUpdated" : "20150804" }
 ];
 
   return {

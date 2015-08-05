@@ -54,7 +54,6 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
       views: {
         'menuContent': {
           templateUrl: "templates/info.html"
-          /* controller: 'InfoCtrl' */
         }
       }
   })

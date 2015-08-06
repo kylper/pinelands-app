@@ -76,12 +76,12 @@ angular.module('pinelands', ['ionic', 'pinelands.controllers', 'pinelands.servic
       }
   })
 
-  .state('app.setlist', {
-      url: "/setlist",
+  .state('app.settimes', {
+      url: "/settimes",
       views: {
         'menuContent': {
-          templateUrl: "templates/setlist.html",
-          controller: 'SetlistCtrl'
+          templateUrl: "templates/settimes.html",
+          controller: 'SettimesCtrl'
         }
       }
   })

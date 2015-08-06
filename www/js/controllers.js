@@ -20,7 +20,7 @@ angular.module('pinelands.controllers', [])
     window.open(url,'_system');
   };
 })
-.controller('SetlistCtrl', function($scope, Setlist) {
+.controller('SettimesCtrl', function($scope, Setlist) {
   $scope.pinelandsList = Setlist.getStageArtists(0);
   $scope.timberList = Setlist.getStageArtists(1);
   $scope.vineList = Setlist.getStageArtists(2);
